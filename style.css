@@ -67,6 +67,10 @@ h1{
     align-items: center;
     justify-content: center;
     font-family: 'RedHatText-SemiBold';
+    transition: transform 0.3s ease-in-out;
+}
+.add-cart-btn:hover{
+    transform: scale(1.1);
 }
 
 .details{
